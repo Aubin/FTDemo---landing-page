@@ -1,23 +1,82 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Fluid Topics Demo</title>
-    <link href="stylesheets/styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-  <div class="logo"><img src="images/logo.png" height="40px"></div>
-    <h1 class="title">
-      <span>Fluid Topics Demo - Available Environments</span>
-    </h1>
-   <div class="tenants_list"> 
-   <section><div class="tenant_title">Back Office</div><div class="tenant"><a href="bo-portal" target="_blank"><img src="images/bo.png" height="200px"></a></div></section>
-    <section><div class="tenant_title">Antidot</div><div class="tenant"><a href="fluid-topics/1/stable/en/" target="_blank"><img src="images/doc-stable.png" height="200px"></a></div></section>
-    <section><div class="tenant_title">Dita Specs</div><div class="tenant"><a href="fluid-topics/70001/stable/" target="_blank"><img src="images/dita.png" height="200px"></a></div></section>
-    <section><div class="tenant_title">Hexagon</div><div class="tenant"><a href="fluid-topics/70047/beta/en/" target="_blank"><img src="images/hexagon.png" height="200px"></a></div></section>
-    <section><div class="tenant_title">Huawei</div><div class="tenant"><a href="fluid-topics/70022/beta/en/" target="_blank"><img src="images/huawei.png" height="200px"></a></div></section>
-    <section><div class="tenant_title">Discover</div><div class="tenant"><a href="fluid-topics/71007/stable/en/" target="_blank"><img src="images/discover.png" height="200px"></a></div></section>
-    <section><div class="tenant_title">Fluid Topics doc (new interface)</div><div class="tenant"><a href="localhost:8081/70142/stable/en/" target="_blank"><img src="images/internal-doc.png" height="200px"></a></div></section>
-    <section><div class="tenant_title">Antidot (new interface)</div><div class="tenant"><a href="localhost:8081/1/beta/en/" target="_blank"><img src="images/doc-stable-new-interface.png" height="200px"></a></div></section>
-    </div>
-    <footer>
-      <h4 class=""></h4>
-    </footer>
-</body></html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <title>Fluid Topics Demo</title>
+        <link href="stylesheets/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="logo"><img src="images/logo.png" height="40px"></div>
+        <h1 class="title">
+            <span>Fluid Topics Demo - Available Environments</span>
+        </h1>
+
+        <div class="tenants_list">
+            <section>
+                <div class="tenant_title">Back Office</div>
+                <div class="tenant">
+                    <a href="bo-portal" target="_blank">
+                        <img src="images/bo.png" height="200px">
+                    </a>
+                </div>
+            </section>
+            <section>
+                <div class="tenant_title">Antidot</div>
+                <div class="tenant">
+                    <a href="fluid-topics/1/stable/en/" target="_blank">
+                        <img src="images/doc-stable.png" height="200px">
+                    </a>
+                </div>
+            </section>
+            <section>
+                <div class="tenant_title">Dita Specs</div>
+                <div class="tenant"><a href="fluid-topics/70001/stable/" target="_blank">
+                    <img src="images/dita.png" height="200px">
+                </a>
+                </div>
+            </section>
+            <section>
+                <div class="tenant_title">Hexagon</div>
+                <div class="tenant"><a href="fluid-topics/70047/beta/en/" target="_blank">
+                    <img src="images/hexagon.png" height="200px">
+                </a>
+                </div>
+            </section>
+            <section>
+                <div class="tenant_title">Huawei</div>
+                <div class="tenant"><a href="fluid-topics/70022/beta/en/" target="_blank">
+                    <img src="images/huawei.png" height="200px">
+                </a>
+                </div>
+            </section>
+            <section>
+                <div class="tenant_title">Discover</div>
+                <div class="tenant"><a href="fluid-topics/71007/stable/en/" target="_blank">
+                    <img src="images/discover.png" height="200px">
+                </a>
+                </div>
+            </section>
+            <section>
+                <div class="tenant_title">Fluid Topics doc (new interface)</div>
+                <div class="tenant">
+                    <a href="fluid-topics/70142/stable/en/" onclick="return useBetaVersion(this);" target="_blank">
+                        <img src="images/internal-doc.png" height="200px">
+                    </a>
+                </div>
+            </section>
+            <section>
+                <div class="tenant_title">Antidot (new interface)</div>
+                <div class="tenant">
+                    <a href="fluid-topics/1/beta/en/" onclick="return useBetaVersion(this);" target="_blank">
+                        <img src="images/doc-stable-new-interface.png" height="200px">
+                    </a>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <h4 class=""></h4>
+        </footer>
+
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
